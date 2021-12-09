@@ -18,6 +18,7 @@ import java.util.List;
 public class RegisterController {
     private final RegisterService registerService;
 
+
     @GetMapping
     private List<Register> getAllRegistries() {
         return  registerService.getAllRegistries();
